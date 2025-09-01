@@ -14,7 +14,7 @@ import com.exemplo.api.produtos.model.Produto;
 import com.exemplo.api.produtos.repository.ProdutoRepository;
 
 @RestController
-@RequestMapping("/produtos")
+@RequestMapping("/")
 public class ProdutoController {
     private final ProdutoRepository repository;
 
